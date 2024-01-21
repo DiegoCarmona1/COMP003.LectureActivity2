@@ -11,6 +11,13 @@ namespace COMP003.LectureActivity2
     {
         static void Main(string[] args)
         {
+            /* Working with Variables */
+            // the following code shows all three primary variable-related activities:
+            string username; //declaring a variable (1 of 3)
+            Console.WriteLine("What is your name?"); // request for user input
+            username = Console.ReadLine(); // Assigning a value to a variable (2 of 3)
+            Console.WriteLine("Hi" +  username); // retrieving its current Value (3 of 3)
+
             
         }
     }
