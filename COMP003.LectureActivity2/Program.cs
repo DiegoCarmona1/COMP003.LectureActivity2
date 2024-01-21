@@ -72,7 +72,26 @@ namespace COMP003.LectureActivity2
             aSingleByte = 17;
             Console.WriteLine("aSingleByte: " + aSingleByte);
 
+            short aNumber = 5039;
+            Console.WriteLine("aNumber: " + aNumber);
+            aNumber = -4354;
+            Console.WriteLine("aNumber: " + aNumber);
 
+            long aVeryBigNumber = 395904282569;
+            Console.WriteLine("aVeryBigNumber: " + aVeryBigNumber);
+            aVeryBigNumber = 13;
+            Console.WriteLine("aVeryBigNumber: " + aVeryBigNumber);
+
+            int anInteger = 2147483647;
+
+            /* declaring,using, and concatenating characters and strings */
+            char aLetter = 'A'; // character values are enclosed in single quotes
+            string message = "Hello World!"; // string values are enclosed in double quotes
+
+            Console.WriteLine("Concatenation using + : " + aLetter + " " + message); //use the plus(+) sign in between characters/strings to concatenate
+            Console.WriteLine($"Concatenation using string interpolation : {aLetter}{message} "); // use string interpolation with a dollar-sign ($) before the opening double-quote and enclosing variables with curly braces ({variableName})
+
+            /* floating-point types */
         }
     }
 }
