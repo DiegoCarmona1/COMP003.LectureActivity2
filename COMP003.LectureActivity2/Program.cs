@@ -119,6 +119,32 @@ namespace COMP003.LectureActivity2
             Console.WriteLine($"Your age is {inputAge}");
 
             Console.WriteLine("**************************************************");
+            /*
+             * math operations
+             * addition: +
+             * subtraction: -
+             * multiplication: *
+             * division: /
+             * modulo: % (remainder)
+             */
+            int addition = 2 + 3;
+            int subtraction = 5 - 2;
+            int multiplication = 22 * 2;
+            int division = 21 / 7;
+            int modulo = 77 % 5;
+            Console.WriteLine($"Value of addition: {addition}");
+            Console.WriteLine($"Value of subtraction: {subtraction}");
+            Console.WriteLine($"Value of multiplication: {multiplication}");
+            Console.WriteLine($"Value of division: {division}");
+            Console.WriteLine($"Value of modulo: {modulo}");
+
+            /*
+             * arithmetic, compound expressions and order of operations
+             * Multiplication and division are done first, left to right
+             * Addition and subtraction are done last, left to right
+             * Reference: https://csharpplayersguide.com/articles/operators-table
+             */
+
 
         }
     }
