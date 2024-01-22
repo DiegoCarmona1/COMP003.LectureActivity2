@@ -168,6 +168,24 @@ namespace COMP003.LectureActivity2
             compoundAssignmentOperator %= 2; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator % 2; (a is 0 after this line runs.)
 
             /* increment and decrement operators */
+            int incrementDecrementOperators = 0;
+            incrementDecrementOperators++; // The equivalent of incrementDecrementOperators += 1; or incrementDecrementOperators = incrementDecrementOperators + 1;
+            incrementDecrementOperators--; // The equivalent of incrementDecrementOperators -= 1; or incrementDecrementOperators = incrementDecrementOperators - 1;
+
+            Console.WriteLine("**************************************************");
+            /* console 2.0 */
+            Console.Write("What is your name, human? "); // notice the space at the end.
+            string userName = Console.ReadLine(); // reads the entire line
+            // result: What is your name, human? jonathan
+
+            Console.WriteLine("Press any key when you're ready to begin.");
+            Console.ReadKey(); // reads a keystroke
+
+            Console.BackgroundColor = ConsoleColor.Yellow; // changes the console background to yellow
+            Console.ForegroundColor = ConsoleColor.Black; // changes the console text to black
+            Console.Title = "Hello World!"; // changes the console title
+
+            Console.Beep(440, 1000); // computer beeps
         }
     }
 }
