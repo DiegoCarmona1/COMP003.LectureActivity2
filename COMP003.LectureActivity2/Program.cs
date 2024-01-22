@@ -92,6 +92,14 @@ namespace COMP003.LectureActivity2
             Console.WriteLine($"Concatenation using string interpolation : {aLetter}{message} "); // use string interpolation with a dollar-sign ($) before the opening double-quote and enclosing variables with curly braces ({variableName})
 
             /* floating-point types */
+            double number1 = 3.5623;
+            float number2 = 3.5623f;
+            decimal number3 = 3.5623m;
+            Console.WriteLine($"Value of number1: {number1}");
+            Console.WriteLine($"Value of number2: {number2}");
+            Console.WriteLine($"Value of number3: {number3}");
+
+
         }
     }
 }
