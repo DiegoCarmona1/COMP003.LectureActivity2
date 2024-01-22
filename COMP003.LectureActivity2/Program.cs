@@ -99,6 +99,26 @@ namespace COMP003.LectureActivity2
             Console.WriteLine($"Value of number2: {number2}");
             Console.WriteLine($"Value of number3: {number3}");
 
+            /* scientific notation */
+            double avogadrosNumber = 6.022e23;
+            Console.WriteLine($"Value of avogadrosNumber: {avogadrosNumber}");
+
+            /* bool type */
+            bool itWorked = true;
+            Console.WriteLine($"Value of itWorked: {itWorked}");
+            itWorked = false;
+            Console.WriteLine($"New value of itWorked: {itWorked}");
+
+            /* convert */
+            string inputAgeString;
+            int inputAge;
+            int currentYear = 2023;
+            Console.WriteLine($"Enter age in {currentYear}: ");
+            inputAgeString = Console.ReadLine();
+            inputAge = Convert.ToInt32(inputAgeString);
+            Console.WriteLine($"Your age is {inputAge}");
+
+            Console.WriteLine("**************************************************");
 
         }
     }
