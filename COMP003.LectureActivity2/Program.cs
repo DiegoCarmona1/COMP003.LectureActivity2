@@ -145,7 +145,29 @@ namespace COMP003.LectureActivity2
              * Reference: https://csharpplayersguide.com/articles/operators-table
              */
 
+            int arithmetic1; // declaring the variable arithmetic1.
+            arithmetic1 = 9 - 2; // assigning a value to arithmetic1, using some math.
+            Console.WriteLine($"Value of arithmetic1: {arithmetic1}");
+            arithmetic1 = 3 + 3; // another assignment.
+            Console.WriteLine($"New value of arithmetic1: {arithmetic1}");
+            int arithmetic2 = 3 + 1; // declaring arithmetic2 and assigning a value to arithmetic2 all at once.
+            Console.WriteLine($"Value of arithmetic2: {arithmetic2}");
+            arithmetic2 = 1 + 2; // assigning a second value to arithmetic2.
+            Console.WriteLine($"New value of arithmetic2: {arithmetic2}");
 
+            // use multiple sets of parentheses to group operations
+            int result = ((2 + 1) * 8 - (3 * 2) * 2) / 4;
+            Console.WriteLine($"Value of result: {result}");
+
+            /* compound assignment operator */
+            int compoundAssignmentOperator = 0;
+            compoundAssignmentOperator += 5; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator + 5; (a is 5 after this line runs.)
+            compoundAssignmentOperator -= 2; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator – 2; (a is 3 after this line runs.)
+            compoundAssignmentOperator *= 4; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator * 4; (a is 12 after this line runs.)
+            compoundAssignmentOperator /= 2; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator / 2; (a is 6 after this line runs.)
+            compoundAssignmentOperator %= 2; // The equivalent of compoundAssignmentOperator = compoundAssignmentOperator % 2; (a is 0 after this line runs.)
+
+            /* increment and decrement operators */
         }
     }
 }
